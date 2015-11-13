@@ -1,7 +1,3 @@
----
-style: pacifico
----
-
 I started quite a lonely journey in the past weeks, looking for a job
 with Haskell. I looked at all resources offered by the community, at
 the main employment sites, i stalked some companies which were

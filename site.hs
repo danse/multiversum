@@ -34,7 +34,6 @@ main = hakyll $ do
             posts <- recentFirst =<< loadAll "posts/*"
             let archiveCtx =
                     listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "Archives"            `mappend`
                     constField "style" "pacifico"            `mappend`
                     defaultContext
 
@@ -50,7 +49,6 @@ main = hakyll $ do
             posts <- recentFirst =<< loadAll "posts/*"
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "Home"                `mappend`
                     constField "style" "pacifico"            `mappend`
                     defaultContext
 
