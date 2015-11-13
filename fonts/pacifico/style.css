@@ -3,7 +3,7 @@
     src: url(Pacifico.ttf);
 }
 
-#content {
+#content, #header {
     font-family: Pacifico;
 }
 
