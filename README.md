@@ -10,3 +10,15 @@ At this point the site can be rebuilt with the commands:
     $ cabal sandbox init
     $ cabal install
     $ cabal run site build
+
+##### Deploy
+
+Hakyll leaves the built assets under a `_site` folder. That folder is
+ignored in the `master` branch, and it contains a clone of this repo
+set on the `gh-pages` branch. Thus, after a build, i can usually
+execute:
+
+    $ cd _site
+    $ git commit -am update
+    $ git push origin
+    
