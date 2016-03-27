@@ -2,6 +2,17 @@
     font-family: Sudo;
     src: url(../../fonts/sudo/Sudo.ttf);
 }
+@font-face {
+    font-family: Pacifico;
+    src: url(../../fonts/pacifico/Pacifico.ttf);
+}
+@font-face {
+    font-family: Merienda;
+    src: url(../../fonts/merienda/Merienda-Regular.ttf);
+}
+
+.font-pacifico { font-family: Pacifico; }
+.font-merienda { font-family: Merienda; }
 
 body {
     color: black;

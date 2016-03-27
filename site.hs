@@ -1,13 +1,25 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.Monoid (mappend)
-import           Hakyll
+import Data.Monoid (mappend)
+import Hakyll
+import Data.Map( lookup )
+import Data.Maybe( fromMaybe )
 
+getStyle item = do
+  metadata <- getMetadata (itemIdentifier item)
+  return (fromMaybe "pacifico" (Data.Map.lookup "style" metadata))
+
+-- https://jaspervdj.be/hakyll/tutorials/04-compilers.html#templates-context
+styleField = field "style" getStyle
 
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
     match "images/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
+    match "fonts/*/*" $ do
         route   idRoute
         compile copyFileCompiler
 
@@ -64,4 +76,5 @@ main = hakyll $ do
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
+    styleField `mappend`
     defaultContext

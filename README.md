@@ -9,6 +9,7 @@ At this point the site can be rebuilt with the commands:
 
     $ cabal sandbox init
     $ cabal install
+    $ cabal run site clean
     $ cabal run site build
 
 ##### Deploy
