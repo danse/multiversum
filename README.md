@@ -15,9 +15,10 @@ At this point the site can be rebuilt with the commands:
 ##### Deploy
 
 Hakyll leaves the built assets under a `_site` folder. That folder is
-ignored in the `master` branch, and it contains a clone of this repo
-set on the `gh-pages` branch. Thus, after a build, i can usually
-execute:
+ignored in the `master` branch, and it contains a different Git repo
+pointing to `master` at
+<https://github.com/danse/danse.github.io>. Thus, after a build, i can
+usually execute:
 
     $ cd _site
     $ git commit -am update
