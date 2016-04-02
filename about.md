@@ -1,5 +1,5 @@
 ---
-style: pacifico
+style: clear
 ---
 
 My name is Francesco Occhipinti, i am an Italian developer passionate

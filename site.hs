@@ -7,7 +7,7 @@ import Data.Maybe( fromMaybe )
 
 getStyle item = do
   metadata <- getMetadata (itemIdentifier item)
-  return (fromMaybe "pacifico" (Data.Map.lookup "style" metadata))
+  return (fromMaybe "personal" (Data.Map.lookup "style" metadata))
 
 -- https://jaspervdj.be/hakyll/tutorials/04-compilers.html#templates-context
 styleField = field "style" getStyle
@@ -46,7 +46,7 @@ main = hakyll $ do
             posts <- recentFirst =<< loadAll "posts/*"
             let archiveCtx =
                     listField "posts" postCtx (return posts) `mappend`
-                    constField "style" "pacifico"            `mappend`
+                    constField "style" "personal"            `mappend`
                     defaultContext
 
             makeItem ""
@@ -61,7 +61,7 @@ main = hakyll $ do
             posts <- recentFirst =<< loadAll "posts/*"
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
-                    constField "style" "pacifico"            `mappend`
+                    constField "style" "personal"            `mappend`
                     defaultContext
 
             getResourceBody

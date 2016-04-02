@@ -11,8 +11,8 @@
     src: url(../../fonts/merienda/Merienda-Regular.ttf);
 }
 
-.font-pacifico { font-family: Pacifico; }
-.font-merienda { font-family: Merienda; }
+.font-personal { font-family: Pacifico; }
+.font-clear { font-family: Merienda; }
 
 div#footer {
     border-top: solid 2px black;

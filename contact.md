@@ -1,5 +1,5 @@
 ---
-style: pacifico
+style: clear
 ---
 
 I currently live in Berlin, here my addresses:
