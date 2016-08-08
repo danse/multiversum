@@ -12,6 +12,14 @@ getStyle item = do
 -- https://jaspervdj.be/hakyll/tutorials/04-compilers.html#templates-context
 styleField = field "style" getStyle
 
+{-
+
+ About `match` and the pattern language:
+ https://jaspervdj.be/hakyll/reference/Hakyll-Core-Rules.html#v:match
+ https://jaspervdj.be/hakyll/reference/Hakyll-Core-Identifier-Pattern.html
+
+ -}
+
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
@@ -71,6 +79,9 @@ main = hakyll $ do
 
     match "templates/*" $ compile templateCompiler
 
+    match "universes/*/**" $ do
+        route   idRoute
+        compile copyFileCompiler
 
 --------------------------------------------------------------------------------
 postCtx :: Context String
