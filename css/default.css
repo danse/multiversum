@@ -24,6 +24,7 @@ div#footer {
 
 ul#post-list {
     list-style-type: none;
+    padding: 0;
 }
 
 @media (min-width: 600px) {
