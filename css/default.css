@@ -10,9 +10,13 @@
     font-family: Merienda;
     src: url(../../fonts/merienda/Merienda-Regular.ttf);
 }
+@font-face {
+    font-family: Baloo;
+    src: url(../../fonts/baloo/BalooPaaji-Regular.ttf);
+}
 
 .font-personal { font-family: Pacifico; }
-.font-clear { font-family: Merienda; }
+.font-clear { font-family: Baloo; }
 
 div#footer {
     border-top: solid 2px black;
