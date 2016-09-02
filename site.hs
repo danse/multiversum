@@ -2,12 +2,11 @@
 {-# LANGUAGE OverloadedStrings #-}
 import Data.Monoid (mappend)
 import Hakyll
-import Data.Map( lookup )
 import Data.Maybe( fromMaybe )
 
 getStyle item = do
   metadata <- getMetadata (itemIdentifier item)
-  return (fromMaybe "personal" (Data.Map.lookup "style" metadata))
+  return (fromMaybe "personal" (lookupString "style" metadata))
 
 -- https://jaspervdj.be/hakyll/tutorials/04-compilers.html#templates-context
 styleField = field "style" getStyle
