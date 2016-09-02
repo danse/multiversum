@@ -26,11 +26,6 @@ div#footer {
     text-align: right;
 }
 
-ul#post-list {
-    list-style-type: none;
-    padding: 0;
-}
-
 @media (min-width: 600px) {
     body {
         color: black;
@@ -114,4 +109,15 @@ ul#post-list {
     div#footer {
         font-size: 3vw;
     }
+}
+
+/* reset */
+
+ul#post-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
 }
