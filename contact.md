@@ -2,7 +2,7 @@
 style: clear
 ---
 
-I currently live in Berlin, here my addresses:
+I travel often, but you can reach me via the following cyberspaces:
 
 [f.occhipinti on Gmail](mailto:f.occhipinti@gmail.com)
 
