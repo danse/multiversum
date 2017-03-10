@@ -111,6 +111,10 @@ div#footer {
     }
 }
 
+img {
+    width: 100%
+}
+
 /* reset */
 
 ul#post-list {
