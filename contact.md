@@ -4,8 +4,9 @@ style: clear
 
 I travel often, but you can reach me via the following cyberspaces:
 
-[f.occhipinti on Gmail](mailto:f.occhipinti@gmail.com)
+[focchi.pinti on Gmail](mailto:focchi.pinti@gmail.com)
 
-[liberalogica on Twitter](https://twitter.com/liberalogica)
+liberalogica on [Twitter](https://twitter.com/liberalogica) and
+[Telegram](https://t.me/liberalogica)
 
 [danse on Github](https://github.com/danse)
