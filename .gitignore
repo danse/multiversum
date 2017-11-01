@@ -2,6 +2,6 @@
 Setup.hs
 cabal.sandbox.config
 dist
-
+posts
 _cache
 _site
