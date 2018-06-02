@@ -1,4 +1,7 @@
 icons
+ imperfection
+ everloving
+
 words
 themes
 voices
