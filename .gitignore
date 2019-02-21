@@ -7,3 +7,5 @@ _cache
 _site
 .stack-work
 
+package.json
+node_modules/
