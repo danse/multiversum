@@ -13,9 +13,8 @@ styleField = field "style" getStyle
 
 {-
 
- About `match` and the pattern language:
- https://jaspervdj.be/hakyll/reference/Hakyll-Core-Rules.html#v:match
- https://jaspervdj.be/hakyll/reference/Hakyll-Core-Identifier-Pattern.html
+ jaspervdj.be/hakyll/reference/Hakyll-Core-Rules.html
+ jaspervdj.be/hakyll/reference/Hakyll-Core-Identifier-Pattern.html
 
  -}
 
@@ -47,10 +46,11 @@ main = hakyll $ do
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
 
-    match "index.html" $ do
+    match "recent.html" $ do
         route idRoute
         compile $ do
             posts <- recentFirst =<< loadAll "posts/*"
+
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     defaultContext
@@ -58,6 +58,13 @@ main = hakyll $ do
             getResourceBody
                 >>= applyAsTemplate indexCtx
                 >>= loadAndApplyTemplate "templates/default.html" indexCtx
+                >>= relativizeUrls
+
+    match "index.html" $ do
+        route idRoute
+        compile $ do
+            getResourceBody
+                >>= loadAndApplyTemplate "templates/default.html" defaultContext
                 >>= relativizeUrls
 
     match "templates/*" $ compile templateCompiler
