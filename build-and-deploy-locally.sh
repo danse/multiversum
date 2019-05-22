@@ -1,6 +1,5 @@
-# bash fail if any fails
+#set -e # bash fail if any fails
+. build.sh
 target=~/prototypes/external/multiversum
-stack run site clean
-stack run site build
 rm -rf $target
 mv _site $target
