@@ -26,9 +26,21 @@ div#footer {
     text-align: right;
 }
 
+:root {
+    --color: #b0ffa7;
+}
+
+body {
+    color: var(--color);
+    background-color: indigo;
+}
+
+a:link, a:visited {
+    color: var(--color);
+}
+
 @media (min-width: 600px) {
     body {
-        color: black;
         font-size: 16px;
         margin: 0px auto 0px auto;
         width: 600px;
@@ -41,7 +53,7 @@ div#footer {
     }
 
     div#logo a {
-        color: black;
+        color: var(--color);
         float: left;
         font-size: 18px;
         font-weight: bold;
@@ -53,7 +65,7 @@ div#footer {
     }
 
     div#header #navigation a {
-        color: black;
+        color: var(--color);
         font-size: 18px;
         font-weight: bold;
         margin-left: 12px;
@@ -91,13 +103,13 @@ div#footer {
     }
 
     div#logo a {
-        color: black;
+        color: var(--color);
         font-weight: bold;
         text-decoration: none;
     }
 
     div#header #navigation a {
-        color: black;
+        color: var(--color);
         font-size: 5vw;
         margin-left: 10vw;
         font-weight: bold;
