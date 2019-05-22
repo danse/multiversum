@@ -1,18 +1,18 @@
 @font-face {
     font-family: Sudo;
-    src: url(../../fonts/sudo/Sudo.ttf);
+    src: url(../fonts/sudo/Sudo.ttf);
 }
 @font-face {
     font-family: Pacifico;
-    src: url(../../fonts/pacifico/Pacifico.ttf);
+    src: url(../fonts/pacifico/Pacifico.ttf);
 }
 @font-face {
     font-family: Merienda;
-    src: url(../../fonts/merienda/Merienda-Regular.ttf);
+    src: url(../fonts/merienda/Merienda-Regular.ttf);
 }
 @font-face {
     font-family: Baloo;
-    src: url(../../fonts/baloo/BalooPaaji-Regular.ttf);
+    src: url(../fonts/baloo/BalooPaaji-Regular.ttf);
 }
 
 .font-personal { font-family: Pacifico; }
