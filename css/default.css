@@ -17,6 +17,15 @@
 
 .font-personal { font-family: Pacifico; }
 .font-clear { font-family: Baloo; }
+.post-date { float: right; }
+.neglectable {
+    color: #3f6d95; /* petrol-like */
+}
+.truncated {
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+}
 
 div#footer {
     border-top: solid 2px black;

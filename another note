@@ -1,0 +1,10 @@
+
+an index of locations and files by word
+through some HTML
+replace repeated words with referenceable links to the index
+the index contains
+matching positions grouped by file
+positions and file names on rows with simple indentation
+identation can highlight more or less the continuity between different files
+a problem is the first of a repeated word, requires a second pass
+can be rendered as a link
