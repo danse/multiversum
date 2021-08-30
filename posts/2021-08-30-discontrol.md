@@ -1,6 +1,7 @@
 
 ----
 title: discontrol
+style: clear
 ----
 
 See also <http://danse.github.io/posts/2018-01-09-post-1.html>.
@@ -79,36 +80,36 @@ part of a tip and center.
 
 I wanted a bookmark like a pointer to a filesystem path.
 
-## Roots and grounds
+## Grounds
 
-`roots` is a named pointer that i ported also to paper archives and
-mobile phones. I was trying to rely on a concept that can be as
-portable as possible. The roots are a growing structure which is
-supposed to be suitable to the ground.
+Whichever frame is unsuited to an everchanging ground.
+
+Deepening starts when one is able to move the focus to some ground,
+which is chaotic.
+
+Growing complexity as a feature of successful diving.
 
 Some reactions give us a ton of matter out of nothing. For instance
 when we find an interesting page or we receive mail, that can spawn a
 list of other elements to be deepened, and we want to keep track of
 our path from the original document through the derived ones.
 
-Growing complexity as a feature of successful diving.
-
 The tip of the ground for input, the tip of the roots is for output.
 
-Deeper rooting starts when one is able to move the tip or the cursor,
-or the focus, or the attention to some ground, which is chaotic.
+## Roots
 
-The root is the place where ideas hit us and become ours
-when they hit us they create a branch that has our name on it
-that keeps branching, giving us options
-there is some ego in every branch
-the root has to be very personal for me
-in order to conceive ideas that seem worth pursuing
-i can be very selective about technology that's part of one of my roots
+`roots` is a named pointer that i ported also to paper archives and
+mobile phones. I was trying to rely on a concept that can be as
+portable as possible. The roots are a growing structure which is
+supposed to be suitable to the ground.
+
+The root is the place where ideas reach us and become ours.  When they
+hit us they create a branch that has our setting on it and that can
+keep branching, giving us more options.
 
 Un'idea sulla radice si può continuare a sviluppare o vivere di più.
 
-a root is easier to analise than a process.  One can select specific
+A root is easier to analise than a process.  One can select specific
 conditions desired in the setting, for example productivity and
 comfort.  Work for the conditions to be there then detect when they
 get lost.
@@ -119,8 +120,6 @@ in a routine.
 
 Work as an activity grounded on (regulated by) money making or
 productivity can be seen as paths to a desirable root.
-
-Whichever frame is unsuited to an everchanging ground.
 
 A conversation can be seen as a shared root.
 
