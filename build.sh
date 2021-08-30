@@ -1,1 +1,1 @@
-stack run site clean && stack run site build
+cabal v1-run site clean && cabal v1-run site build

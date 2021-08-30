@@ -3,7 +3,7 @@
 target=../danse.github.io
 rm -rf $target/*
 mv _site/* $target
-stack run site clean
+cabal v1-run site clean
 cd $target
 git add -A
 git commit -m update
