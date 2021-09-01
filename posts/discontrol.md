@@ -1,4 +1,3 @@
-
 ----
 title: discontrol
 style: clear
