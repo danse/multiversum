@@ -60,6 +60,27 @@ main = hakyll $ do
                 >>= loadAndApplyTemplate "templates/default.html" indexCtx
                 >>= relativizeUrls
 
+    match "reiterated/*" $ do
+        route $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/reiterated.html" reiteratedCtx
+            >>= loadAndApplyTemplate "templates/default.html" reiteratedCtx
+            >>= relativizeUrls
+
+    match "reitera.html" $ do
+        route idRoute
+        compile $ do
+            posts <- recentFirst =<< loadAll "reiterated/*"
+
+            let indexCtx =
+                    listField "reiterated" reiteratedCtx (return posts) `mappend`
+                    defaultContext
+
+            getResourceBody
+                >>= applyAsTemplate indexCtx
+                >>= loadAndApplyTemplate "templates/default.html" indexCtx
+                >>= relativizeUrls
+
     match "index.html" $ do
         route idRoute
         compile $ do
@@ -76,3 +97,6 @@ main = hakyll $ do
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx = mconcat [dateField "date" "%B %e, %Y", styleField, defaultContext]
+
+reiteratedCtx :: Context String
+reiteratedCtx = mconcat [styleField, defaultContext]
