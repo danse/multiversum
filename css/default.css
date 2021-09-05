@@ -28,7 +28,7 @@
 }
 
 div#footer {
-    border-top: solid 2px black;
+    border-top: solid 2px var(--color);
     color: #555;
     margin-top: 30px;
     padding: 12px 0px 12px 0px;
@@ -56,7 +56,7 @@ a:link, a:visited {
     }
 
     div#header {
-        border-bottom: 2px solid black;
+        border-bottom: 2px solid var(--color);
         margin-bottom: 30px;
         padding: 12px 0px 12px 0px;
     }
