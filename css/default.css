@@ -36,12 +36,12 @@ div#footer {
 }
 
 :root {
-    --color: #b0ffa7;
+    --color: #ffe9a7;
 }
 
 body {
     color: var(--color);
-    background-color: indigo;
+    background-color: #530082;
 }
 
 a:link, a:visited {
