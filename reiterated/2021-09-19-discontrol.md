@@ -86,7 +86,7 @@ Whichever frame is unsuited to an everchanging ground.
 Deepening starts when one is able to move the focus to some ground,
 which is chaotic.
 
-Growing complexity as a feature of successful diving.
+Growing complexity as a feature of successful grounding.
 
 Some reactions give us a ton of matter out of nothing. For instance
 when we find an interesting page or we receive mail, that can spawn a
@@ -95,6 +95,24 @@ our path from the original document through the derived ones.
 
 The tip of the ground for input, the tip of the roots is for output.
 
+The ground is the place where ideas reach us and become ours.  When they
+hit us they create a branch that has our setting on it and that can
+keep branching, giving us more options.
+
+Un'idea sul terreno si può radicare o vivere di più.
+
+A ground is easier to analise than a process.  One can select specific
+conditions desired in the setting, for example productivity and
+comfort.  Work for the conditions to be there then detect when they
+get lost.
+
+Circuits provide control: empty spaces, polished surfaces, threads,
+routines. Even when delicate and flexible. A ground can be a checkpoint
+in a routine.
+
+Work as an activity grounded on (regulated by) money making or
+productivity can be seen as paths to a desirable ground.
+
 ## Roots
 
 `roots` is a named pointer that i ported also to paper archives and
@@ -102,27 +120,9 @@ mobile phones. I was trying to rely on a concept that can be as
 portable as possible. The roots are a growing structure which is
 supposed to be suitable to the ground.
 
-The root is the place where ideas reach us and become ours.  When they
-hit us they create a branch that has our setting on it and that can
-keep branching, giving us more options.
-
-Un'idea sulla radice si può continuare a sviluppare o vivere di più.
-
-A root is easier to analise than a process.  One can select specific
-conditions desired in the setting, for example productivity and
-comfort.  Work for the conditions to be there then detect when they
-get lost.
-
-Circuits provide control: empty spaces, polished surfaces, threads,
-routines. Even when delicate and flexible. A root can be a checkpoint
-in a routine.
-
-Work as an activity grounded on (regulated by) money making or
-productivity can be seen as paths to a desirable root.
-
-A conversation can be seen as a shared root.
-
 Pop in versus pop out frequencies.
+
+A conversation can be seen as shared roots.
 
 ## Receptive strategies
 
