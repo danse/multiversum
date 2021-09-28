@@ -1,8 +1,6 @@
 ----
-title: kasaputia
+title: kasaputia stories
 ----
-
-## stories
 
 ### Una storia scritta in due lingue
 
@@ -12,8 +10,11 @@ A story is the only way to explain it all, from the start. Because
 it's important to show how there was nothing at the start, just an
 idea and a name for it.
 
-The idea expanded on a sheet of paper, and on a gesture: i open the
-door. My kasaputia started that moment, with ridicolous ambitions.
+The road was not much harder to reach than the web, in both cases i
+just needed a gesture and curiosity.
+
+The idea expanded on a sheet of paper, and then the gesture: i open
+the door. My kasaputia started that moment, with ridicolous ambitions.
 
 Part of this kasaputia will stay here, part of it will go everywhere.
 
@@ -37,6 +38,9 @@ pubblico. Non passa molta gente. Quando passa qualche curioso, la mia
 postazione mi permette di ricambiare lo sguardo, un segno di
 debolezza.
 
+The door is on a road when cars almost never pass. There is no one
+directly in front living the other side and staring.
+
 ### Ambient tonda
 
 Today i started playing Hang Massive loud in kasa, since i received a
@@ -58,13 +62,3 @@ I write to someone, take my time, try raising the volume and the
 tempo, switch to Kollektiv Türmstrasse. I hear several songs at full
 volume, really enjoying it. After one i really enjoyed i stop. The
 clouds moving in the silence on the highlands are majestic.
-
-## Cards
-
-Now the road isn't much harder to reach than the web in both cases i
-just need a gesture and curiosity.
-
-The door is on a road when cars almost never pass. There is no one
-directly in front living the other side and staring. People pass
-rarely.
-
