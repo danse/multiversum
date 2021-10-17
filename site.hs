@@ -70,7 +70,7 @@ main = hakyll $ do
     match "reitera.html" $ do
         route idRoute
         compile $ do
-            posts <- recentFirst =<< loadAll "reiterated/*"
+            posts <- chronological =<< loadAll "reiterated/*"
 
             let indexCtx =
                     listField "reiterated" reiteratedCtx (return posts) `mappend`
