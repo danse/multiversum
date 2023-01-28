@@ -1,3 +1,7 @@
+---
+title: a picture of my home in berlin
+---
+
 After two months in Italy and Sicily, as i arrived back to my small
 flat in Berlin i had a surprising feeling of familiarity and
 relaxation, as if the disposition of objects told a story that i was

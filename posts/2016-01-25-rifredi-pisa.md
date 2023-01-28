@@ -1,3 +1,7 @@
+---
+title: rifredi-pisa
+---
+
 I am on the train from Firenze Rifredi to Pisa, no connection. A good
 opportunity to write a bit. I don't have much time so i will write
 quickly in a descriptive way.

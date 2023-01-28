@@ -1,3 +1,7 @@
+---
+title: a quiet hinterhof
+---
+
 I arrived in Berlin yesterday evening. I had both personal and
 work-related tasks cumulated over the last weeks, while Norbert was my
 guest, but even from before. Today i worked only four hours, but i

@@ -1,3 +1,7 @@
+---
+title: windmills
+---
+
 I just arrived back to my small flat in Berlin. Being in the city
 excites me and the flat is cosy and familiar, even though there are a
 few ugly corners and signs of negligence.

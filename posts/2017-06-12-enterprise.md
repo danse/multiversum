@@ -1,3 +1,7 @@
+---
+title: enterprise
+---
+
 It's unbelievable the distance between and how little a traditional
 workplace is suited to hacking (going meta, for example).
 
