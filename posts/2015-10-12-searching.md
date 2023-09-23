@@ -1,4 +1,5 @@
 ---
+tags: berlin, haskell
 title: searching
 ---
 

@@ -1,4 +1,5 @@
 ---
+tags: berlin
 title: a picture of my home in berlin
 ---
 
