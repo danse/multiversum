@@ -1,1 +1,1 @@
-cabal v1-run site clean && cabal v1-run site build
+cabal run site clean && cabal run site build
