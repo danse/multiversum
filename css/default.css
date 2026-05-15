@@ -44,10 +44,6 @@ body {
     background-color: #530082;
 }
 
-a:link, a:visited {
-    color: var(--color);
-}
-
 @media (min-width: 600px) {
     body {
         font-size: 16px;
@@ -145,4 +141,12 @@ ul#post-list {
 
 a {
     text-decoration: none;
+}
+
+a:link {
+    color: #ffa7a7;
+}
+
+a:visited {
+    color: #b2a7ff;
 }
